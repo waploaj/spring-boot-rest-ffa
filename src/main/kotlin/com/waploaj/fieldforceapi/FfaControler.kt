@@ -11,4 +11,7 @@ class FfaControler {
 
     @GetMapping("spring")
     fun hello():String = "Hello World!"
+
+    @GetMapping("user")
+    fun user():String = "34"
 }

@@ -1,10 +1,9 @@
 package com.waploaj.fieldforceapi.datasource
 
-import com.waploaj.fieldforceapi.model.Customer
+import com.waploaj.fieldforceapi.entity.CustomerEntity
 import org.springframework.data.jpa.repository.JpaRepository
-import org.springframework.stereotype.Repository
 
-@Repository
-interface CustomerDatasource : JpaRepository<Customer, Int>{
+
+interface CustomerDatasource : JpaRepository<CustomerEntity, String>{
 
 }

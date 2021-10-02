@@ -55,7 +55,7 @@ class CustomerController(val customerservice:CustomerService) {
             status = "ok",
             code = 200,
             response = responses,
-            message = "successfull achieve list of customer"
+            message = "successfull achieve list of customers"
 
         )
     }
